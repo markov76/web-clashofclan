@@ -2,12 +2,12 @@
 
 
 body {
-    background-image: url("../pictures/kuva3.jpg");
-    width: 100%;
+    background-image: url("../pictures/kuva5.png");
+    width: auto;
 }
 
 .container-fluid {
-    text-justify: center;
+    text-align: center;
 }
 
 footer {
