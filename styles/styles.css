@@ -5,7 +5,7 @@ body, html {
   }
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../pictures/kuva5.png");
-    height: 94%;
+    height: 93%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,13 +22,14 @@ body, html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
-.container {
+.container1 {
   color: black;
   background-color: white; opacity: 0.4;
 }
 
 .container-fluid {
-    text-align: center;
+  
+    align-items: center;
     background-color: darkslategray ; 
 }
 
