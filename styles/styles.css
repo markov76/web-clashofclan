@@ -3,11 +3,16 @@
 
 body {
     background-image: url("../pictures/kuva5.png");
-    width: auto;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:crimson
 }
 
 .container-fluid {
     text-align: center;
+    background-color: crimson;
 }
 
 footer {
