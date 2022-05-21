@@ -45,7 +45,8 @@ footer {
  .img{
    width: 100%;
  }
- .liveAlertBtn {
-  top: 50%;
-  left: 50%;
+
+ #info {
+   background-color: lightblue;
+   margin-left: 50%;
  }
