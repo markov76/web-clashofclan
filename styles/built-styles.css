@@ -63,4 +63,8 @@ footer {
   color: #fff;
 }
 
+a[target] {
+  color: #fff;
+}
+
 /*# sourceMappingURL=built-styles.css.map */

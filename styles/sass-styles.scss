@@ -68,3 +68,7 @@ footer {
  .navbar {
     @include theme;
  }
+
+ a[target] {
+    color: #fff;
+ }
