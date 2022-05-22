@@ -25,7 +25,14 @@ let f = document.getElementById("footter");
 
 f.classList.add("important");
 
-//fetch( )
-//.then(response => response.json())
-//.then(data => document.getElementById('print-here').innerHTML =
-//data.name);
+let button = document.getElementById("id");
+
+  button.addEventListener("click", doSome)
+
+  function doSome() {
+    fetch('https://dog.ceo/api/breeds/image/random')
+.then(response => response.json())
+.then(data => document.getElementById('print-here').innerHTML =
+JSON.stringify(data));
+  }
+    
