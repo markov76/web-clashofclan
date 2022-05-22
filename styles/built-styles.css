@@ -24,7 +24,6 @@ body, html {
 }
 
 .container1 {
-  color: black;
   background-color: white;
   opacity: 0.4;
 }
@@ -32,6 +31,7 @@ body, html {
 .container-fluid {
   align-items: center;
   background-color: darkslategray;
+  color: white;
 }
 
 footer {
@@ -42,7 +42,6 @@ footer {
   background-color: darkslategray;
   opacity: 0.8;
   color: white;
-  text-align: center;
 }
 
 .img {
@@ -56,6 +55,12 @@ footer {
 
 .img2 {
   color: aliceblue;
+}
+
+.navbar {
+  background: darkgrey;
+  box-shadow: 0 0 1px rgba(169, 169, 169, 0.2);
+  color: #fff;
 }
 
 /*# sourceMappingURL=built-styles.css.map */

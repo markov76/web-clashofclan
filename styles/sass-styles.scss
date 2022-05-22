@@ -1,4 +1,12 @@
-$typekit-white: "#ffffff";
+$link-colour: white;
+
+@mixin theme ($theme: darkgrey) {
+    background: $theme;
+    box-shadow: 0 0 1px rgba($theme, .20);
+    color: #fff;
+}
+    
+
 
 body, html {
     height: 100%;
@@ -25,7 +33,7 @@ body, html {
   }
 
 .container1 {
-  color: black;
+ 
   background-color: white; opacity: 0.4;
 }
 
@@ -33,6 +41,7 @@ body, html {
   
     align-items: center;
     background-color: darkslategray ; 
+    color: $link-colour;
 }
 
 footer {
@@ -41,18 +50,21 @@ footer {
     bottom: 0;
     width: 100%;
     background-color:darkslategray ; opacity: 0.8;
-    color: white;
-    text-align: center;
+    color: $link-colour;
  }
- .img{
+
+ .img {
    width: 100%;
  }
 
  #info {
+ 
    background-color: lightblue;
    margin-left: 50%;
  }
  .img2 {
    color: aliceblue;
  }
- 
+ .navbar {
+    @include theme;
+ }
