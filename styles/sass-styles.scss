@@ -72,3 +72,19 @@ footer {
  a[target] {
     color: #fff;
  }
+
+ footer + p {
+     text-align: center;
+ }
+
+ div > p {
+    background-color: yellow;
+  }
+
+  div ~ h5 {
+      color: aqua;
+  }
+
+  .important {
+      background-color: rebeccapurple;
+  }
