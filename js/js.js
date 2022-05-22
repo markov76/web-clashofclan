@@ -23,3 +23,7 @@ const alerts = [...alertList].map(element => new bootstrap.Alert(element))
 
 
 
+//fetch( )
+//.then(response => response.json())
+//.then(data => document.getElementById('print-here').innerHTML =
+//data.name);
